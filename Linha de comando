@@ -1,0 +1,5 @@
+Linha de comando~
+Use o factoryresetcomando para limpar todas as configurações e restaurar a placa para a configuração padrão:
+
+
+factoryreset
