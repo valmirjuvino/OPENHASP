@@ -1,5 +1,10 @@
 Linha de comando~
-Use o factoryresetcomando para limpar todas as configurações e restaurar a placa para a configuração padrão:
+Use o factoryresetcomando para limpar todas as configurações e restaurar a placa para a configuração padrão: factoryreset
 
 
-factoryreset
+Você também pode configurar o Wi-ficonfigurações através do console serial ou telnet:
+
+
+ssid myAccessPointName
+pass myWifiPassword
+reboot
