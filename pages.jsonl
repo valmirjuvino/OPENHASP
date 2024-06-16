@@ -58,14 +58,26 @@ QUARTO 2", "text_font": 20, "align": 1}
 {"page": 3, "id": 6, "obj": "btn", "x": 220, "y": 200, "w": 90, "h": 100, "toggle": true, "text": "\uE717", "text_font": 32, "align": 1}
 
 
-{"page": 4, "comment": "---------- MENU 4 CAMERA ONVIF ----------"}
-{"page":4,"id":1,"obj":"btn","x":0,"y":0,"w":240,"h":30,"text":"FAN STATUS","text_font":16,"bg_color":"#2C3E50","text_color":"#FFFFFF","radius":0,"border_side":0,"click":0}
+{"page":4,"id":1,"obj":"label","x":20,"y":35,"w":200,"h":40,"text":"Settings", "text_font": 32}
+{"page":4,"id":2,"obj":"obj","x":5,"y":75,"w":310,"h":75,"radius":15,"click":true,"border_side":0,"bg_color":"#1c1c1c"}
+{"page":4,"id":3,"obj":"label","x":25,"y":87,"w":200,"h":40,"text":"Backlight", "text_font": 16, "text_color":"#9b9b9b"}
+{"page":4,"id":4,"obj":"slider","x":25,"y":120,"h":15,"w":270,"min":0,"max":100}
 
-{"page":4,"id":11,"obj":"img","src":"L:/noun_Fan_35097_140.png","auto_size":1,"w":140,"h":140,"x":50,"y":75,"image_recolor":"lime","image_recolor_opa":150}
-{"page":4,"id":12,"obj":"spinner","parentid":11,"x":7,"y":6,"w":126,"h":126,"bg_opa":0,"border_width":0,"line_width":7,"line_width10":7,"type":2,"angle":120,"speed":1000,"value_str":3}
 
-{"page":4,"id":13,"obj":"spinner","x":68,"y":91,"w":105,"h":105,"bg_opa":0,"border_width":0,"line_width":0,"line_width10":32,"line_color10":"orange","line_rounded10":1,"type":2,"angle":160,"speed":1000,"value_str":3,"value_ofs_y":1}
-{"page":4,"id":14,"obj":"img","src":"L:/ventilador.jpg","auto_size":1,"w":140,"h":140,"x":50,"y":75,"image_recolor":"silver","image_recolor_opa":120}
+{"page":4,"id":5,"obj":"label","x":20,"y":155,"w":200,"h":40,"text":"System", "text_font": 32}
+{"page":4,"id":6,"obj":"obj","x":5,"y":195,"w":310,"h":235,"radius":15,"click":true,"border_side":0,"bg_color":"#1c1c1c"}
+
+{"page":4,"id":7,"obj":"label","x":25,"y":205,"w":200,"h":40,"text":"IP Address", "text_font": 16, "text_color":"#9b9b9b"}
+{"page":4,"id":8,"obj":"label","x":25,"y":225,"w":200,"h":40,"text":"%ip%", "text_font": 24}
+
+{"page":4,"id":9,"obj":"label","x":25,"y":260,"w":200,"h":40,"text":"Uptime", "text_font": 16, "text_color":"#9b9b9b"}
+{"page":4,"id":10,"obj":"label","x":25,"y":280,"w":200,"h":40,"text":"361 minutes", "text_font": 24}
+
+{"page":4,"id":11,"obj":"label","x":25,"y":315,"w":200,"h":40,"text":"openHASP version", "text_font": 16, "text_color":"#9b9b9b"}
+{"page":4,"id":12,"obj":"label","x":25,"y":335,"w":200,"h":40,"text":"0.6.3", "text_font": 24}
+
+{"page":4,"id":13,"obj":"label","x":25,"y":370,"w":200,"h":40,"text":"Friendly Name", "text_font": 16, "text_color":"#9b9b9b"}
+{"page":4,"id":14,"obj":"label","x":25,"y":390,"w":200,"h":40,"text":"plate02", "text_font": 24}
 
 
 
